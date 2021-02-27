@@ -12,11 +12,11 @@ class Cancion{
 	string nombre; 
 	string artista;
 	string duracion; 
- 	Genero genero; 
+ 	Genero* genero; 
  	
  	public:
  	Cancion();
- 	Cancion(string, string, string, Genero);
+ 	Cancion(string, string, string, Genero*);
  	string GETnombre();
 	void SETnombre(string);
 	string GETartista();
@@ -24,5 +24,5 @@ class Cancion{
 	string GETduracion();
 	void SETduracion(string);
 	Genero GETgenero();
-	void SETgenero(Genero);
+	void SETgenero(Genero* );
 };

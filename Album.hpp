@@ -19,6 +19,6 @@ class Album{
 	string GETnombre();
     vector <Cancion*> GETcanciones();
     string GETartista();
- 	
+ 	void operator + (Cancion*);
 	
 };

@@ -6,7 +6,7 @@ Cancion :: Cancion(){
 	
 }
 
-Cancion :: Cancion(string n, string a, string d, Genero x){
+Cancion :: Cancion(string n, string a, string d, Genero* x){
 	nombre = n; 
 	artista = a; 
 	duracion = d; 
@@ -35,4 +35,8 @@ void Cancion :: SETartista(string x){
 
 void Cancion :: SETduracion(string x){
 	duracion = x; 
+}
+
+void Cancion :: SETgenero(Genero* x){
+	genero = x; 
 }

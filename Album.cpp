@@ -35,3 +35,12 @@ string Album :: GETartista(){
 vector <Cancion*> Album :: GETcanciones(){
 	return canciones; 
 }
+
+void Album :: operator + (Cancion* x){
+	canciones.push_back(x);
+}
+
+
+
+
+

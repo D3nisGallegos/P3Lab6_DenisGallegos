@@ -19,5 +19,6 @@ class Playlist{
 	void SETcanciones(vector <Cancion*>); 
 	vector <Cancion*> GETcanciones();
 	string GETnombre();
+	void operator + (Cancion*); 
 	 
 };

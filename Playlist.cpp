@@ -26,3 +26,7 @@ string Playlist :: GETnombre(){
 vector <Cancion*> Playlist :: GETcanciones(){
 	return canciones;
 }
+
+void Playlist :: operator + (Cancion* x){
+	canciones.push_back(x);
+}
